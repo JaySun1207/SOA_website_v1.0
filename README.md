@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Demo version v1.0 of the SOA website. 
+* Ruby version: Ruby 2.3.3 | Rails 5.1.7
 
-Things you may want to cover:
+Progress: Home Page / links / navBar 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Still need: write-up / logo / form / repository set-up
