@@ -1,0 +1,174 @@
+/*
+<!-- ~~~~~~~~~ -->
+<!-- LAYER 2   -->
+<!-- ~~~~~~~~~ -->
+<!-- ~~~~~~~~~ -->
+<!-- LAYER 2   -->
+<!-- ~~~~~~~~~ -->
+*/
+
+        $layer-2-height: 620px; 
+
+        #layer-2-logo{
+            /*  orange SOA has size of 284 x 441 */
+//            width: 100%;
+//            min-width: 600px;
+            width: 600px;
+            height: 420px; 
+            margin-top: 100px; 
+        }
+        #layer-2-left{
+             
+            height: $layer-2-height;
+            background-color: white; 
+//            background-color: rgba(225,255,225,1.0);
+//            background-color: rgba(209,29,5,0.39);
+//            background-color: rgba(255,97,26,1);
+        }
+        #layer-2-right{
+//            background-color: #9B3B6A; 
+            background-color: #720a3d; 
+//            background-color: #006a96; 
+            color: white; 
+            height: $layer-2-height;
+            padding: 0 70px; 
+        }
+        #layer-2-right-title{
+            font-size: 44px;  
+            font-weight: 720; 
+            margin-top: 100px; 
+            margin-bottom: 60px; 
+        }
+        #layer-2-right-content{
+//            color: rgba(225,255,225,1.0);
+            line-height: 1.3;
+//            font-weight: 570; 
+            font-size: 24px; 
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            
+        }
+//        #layer-2-but-container{
+//            text-align: center; 
+//            margin-top: 65px; 
+//            
+//        }
+//        #layer-2-but-a{
+//            
+//        }
+//        #layer-2-but{
+//            font-size: 22px; 
+//            font-weight: 600;
+//            padding: 12px;
+////            height: 150px; 
+//            
+//            width: 150px; 
+//            color:  #381D2A;
+//            border: none; 
+//            background: white;
+////            border-radius: 50%;  
+//          
+//        }
+
+
+
+
+
+//$purple : #512DA8;
+//$blue : #1976D2;
+//$l_orange : #FBC02D;
+//$brick : #FF5722;
+//
+//@mixin buttonBG($bg) {
+//  border: 2px solid $bg;
+//  color: $bg;
+//  &:hover {
+//    background-color: $bg;
+//    transition: all 0.3s ease-in-out;
+//  }
+//}
+//
+// #layer-2-but-container{
+//      text-align: center;
+//      margin-top: 65px; 
+//
+//    //  display: flex;
+//    //  justify-content: space-evenly;
+//    //  align-items: center;
+//    //  flex-wrap: wrap;
+//      height: 97vh;
+//      .skewBtn{
+//        width: 180px;
+//        height: 80px;
+//        outline: none;
+//        cursor: pointer;
+//        background: none;
+//        transition: .5s;
+//        font-size: 24px;
+//        border-radius: 5px;
+//        font-family: "Lato",sans-serif;
+//        &:hover{
+//          border: none;
+//          color: white;
+//          font-size: 28px;
+//          transform:scale(1.1);
+//        }
+//      }
+//}
+//
+///* Buttons */
+//.purple{
+//  @include buttonBG($purple);
+//}
+//.blue{
+//  @include buttonBG($blue);
+//}
+//.lorange{
+//  @include buttonBG($l_orange);
+//}
+//.brick{
+//  @include buttonBG($brick);
+//}
+
+
+
+$but-bg : #FBC02D; 
+//$but-bg : #006a96; 
+
+
+#layer-2-but-container{
+    text-align: center;
+    margin-top: 65px; 
+    
+}
+
+#layer-2-but{
+    border: 3px solid $but-bg;
+    color: $but-bg;
+    width: 172px;
+    height: 60px;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    transition: .5s;
+    font-size: 22px;
+//    font-weight: 600;
+//    border-radius: 5px;
+    font-family: "Lato",sans-serif;
+    
+    
+}
+
+#layer-2-but:hover{
+    border: none; 
+    color: white; 
+    font-size: 24px;
+    transform:scale(1.09);
+    background-color: $but-bg;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+        
+     

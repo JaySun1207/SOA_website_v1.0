@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOA @ UCSD</title>
+    <%= csrf_meta_tags %>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+      
+    <%#= stylesheet_link_tag "layer2" %>
+  </head>
+
+  <body>
+    <% if @nav_flag %>
+        <%= render partial: 'layouts/nav' %>
+    <% end %>
+    <%= yield %>
+    <%= render partial: 'layouts/footer'%>
+  </body>
+</html>

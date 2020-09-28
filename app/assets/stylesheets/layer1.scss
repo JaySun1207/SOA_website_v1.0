@@ -1,0 +1,118 @@
+/*
+<!-- ~~~~~~~~~ -->
+<!-- LAYER 1   -->
+<!-- ~~~~~~~~~ -->
+<!-- ~~~~~~~~~ -->
+<!-- LAYER 1   -->
+<!-- ~~~~~~~~~ -->
+*/      
+        #soa-graphic-design{          
+/*            original size = 840px X 560px */
+/*            100% = 840px */
+            width: 840px;  
+            height: 560px; 
+            min-width: 700px;           
+            margin-top: 100px; 
+            margin-left: -30px;    
+        }
+        
+      
+
+        
+        
+        #left-blue{
+            height: 780px; 
+            background-color: #2733A0;
+        }
+        
+  
+        #right-yellow{
+            height: 780px; 
+/*            background-color: #DAF013;*/
+            background-color: #DEF516;
+            padding-left: 110px; 
+            padding-right: 60px; 
+        }
+        #home-about-us-title{
+            font-size: 44px;  
+            font-weight: 720; 
+            
+            margin-top: 140px;
+            margin-bottom: 65px; 
+        }
+        #home-about-us-content{
+            line-height: 1.3;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+//            font-weight: 570; 
+            font-size: 24px; 
+        }
+        #home-about-us-learn-more-div{
+            text-align: center; 
+            margin-top: 65px; 
+        }
+        #home-about-us-learn-more-a{
+
+        }
+//        #home-about-us-learn-more-but{
+//            font-size: 22px; 
+//            font-weight: 600; 
+//            padding: 12px;
+//            height: 150px; 
+//            width: 150px; 
+//            color: #DEF516;
+//            border: none; 
+//            background: #2733A0;
+//            border-radius: 12px;
+//            box-shadow: 0 0 20px #eee;
+//        }
+//        #home-about-us-learn-more-but:hover {
+//            background-position: right center; /* change the direction of the change here */
+//            color: #fff;
+//            text-decoration: none;
+//          }
+
+
+
+
+        #home-about-us-learn-more-but{background-image: linear-gradient(to right, #2b87b4 0%, #2ad435  51%, #2733a0  100%)}
+        #home-about-us-learn-more-but{
+            font-size: 20px; 
+//            font-weight: 600; 
+            padding: 14px 28px;
+            border: none; 
+            color: white;
+            background-size: 200% auto;
+            font-family: 'Raleway', sans-serif;
+            transition: 0.5s;
+        }
+        #home-about-us-learn-more-but:hover {
+            background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+          }
+
+
+
+
+
+//         .btn-grad {background-image: linear-gradient(to right, #fc00ff 0%, #00dbde  51%, #fc00ff  100%)}
+//         .btn-grad {
+//            margin: 10px;
+//            padding: 15px 45px;
+//            text-align: center;
+//            text-transform: uppercase;
+//            transition: 0.5s;
+//            background-size: 200% auto;
+//            color: white;            
+//            box-shadow: 0 0 20px #eee;
+//            border-radius: 10px;
+//            display: block;
+//          }
+//
+//          .btn-grad:hover {
+//            background-position: right center; /* change the direction of the change here */
+//            color: #fff;
+//            text-decoration: none;
+//          }
+//         
